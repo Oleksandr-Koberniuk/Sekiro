@@ -1,0 +1,97 @@
+body {
+    font-family: "Liter", serif;
+    color: white;
+    background-color: #232323;
+    font-size: 1.25rem;
+    padding-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.general-container {
+    width: 80%;
+    margin-inline: auto;
+}
+
+.sekiro-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 60px;
+}
+
+.sekiro-image {
+    width: 45%;
+}
+
+.red {
+    color: rgb(235, 0, 0);
+}
+
+.text-container {
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 50px;
+}
+
+.development-container {
+    display: flex;
+    gap: 50px;
+}
+
+.text-image-gameplay-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.text-gameplay-container {
+    width: 60%;
+}
+
+.gameplay-image {
+    max-width: 40%;
+    max-height: 300px;
+}
+
+.gameplay-image-bottom {
+    width: 70%;
+}
+
+.gameplay-image-bottom-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.boss-tree-image {
+    float: right;
+    width: 50%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #000000;
+}
+.nominated {
+    color: red;
+}
+.won {
+    color: green;
+    font-weight: bold;
+}

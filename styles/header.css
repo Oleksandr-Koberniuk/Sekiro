@@ -1,0 +1,45 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100px;
+	background-color: #000000;
+	padding-left: 80px;
+	padding-right: 80px;
+	font-size: 1.6rem;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.links-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 50px;
+}
+
+.logo {
+	width: 7%;
+}
+
+.link {
+	padding: 10px 30px;
+	border-radius: 10px;
+	border: 1px solid rgb(0, 0, 0);
+	color: rgb(235, 0, 0);
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+.clicked {
+	background-color: rgb(235, 0, 0);
+	border: 1px solid rgb(235, 0, 0);
+	color: #000000;
+}
+
+.link:hover {
+	border: 1px solid rgb(235, 0, 0);
+}
